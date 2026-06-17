@@ -1,0 +1,328 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+/* NAVBAR */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1px 50px;
+  background: #111;
+  color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background: #222;
+  padding: 19x;
+  text-align: center;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.search-container {
+    display: flex;
+    justify-content: flex-end; /* push to right */
+    padding: 10px 20px;
+}
+
+/* input */
+.search-container input {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+/* input */
+.search-container input {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+/* button icon */
+.search-btn {
+    padding: 8px 12px;
+    border: 1px solid gold;
+    background-color: gold;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* hover */
+.search-btn:hover {
+    background-color: gold;
+}
+
+
+/* About Webpage */
+/* tanggal default spacing */
+body {
+    margin: 0;
+}
+
+/* header */
+.header {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+/* IMAGE SECTION */
+/* tanggal default spacing */
+body {
+    margin: 0;
+}
+
+/* header */
+.header {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+/* IMAGE SECTION */
+.image-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px; /* 🔥 gamitin ito instead of margin */
+}
+
+
+/* IMAGE */
+.image-section img {
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin-top: 50px;
+    position: relative;
+    top: -130px;
+}
+
+.renegade {
+  text-align: center;
+  margin-top: -240px;
+}
+
+.renegade h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f0f0;
+}
+
+/* ===== CONTACT SECTION ===== */
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 50px;
+  padding: 30px 30px;
+}
+
+/* ===== LEFT SIDE ===== */
+.contact-info {
+  width: 45%;
+ 
+}
+
+.contact-info h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+ 
+}
+
+.contact-info p {
+  color: #444;
+  margin-bottom: 12px;
+  line-height: 1.6;
+
+  
+}
+
+/* INFO CARD */
+.info-box {
+  margin-top: 20px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  border-left: 6px solid black;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  
+}
+
+/* ===== FORM (INBOX STYLE) ===== */
+.contact-form {
+  width: 50%;
+  background: #1e1e1e;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  
+}
+
+/* ROW */
+.row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 50px;
+  padding-top: 5px;
+  align-items: flex-start;
+}
+
+.row input,
+.row button
+{
+  margin-top: -60px;  /* adjust mo: -5px to -20px depende sa gusto mong taas */
+}
+
+.nasty{
+  margin-top: -50px;
+}
+
+/* INPUT */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #2c2c2c;
+  color: white;
+  outline: none;
+  font-size: 14px;
+}
+
+/* PLACEHOLDER */
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #aaa;
+}
+
+/* TEXTAREA */
+.contact-form textarea {
+  height: 130px;
+  resize: none;
+  margin-bottom: 15px;
+}
+
+/* BUTTON */
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  background: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: white;
+  color: black;
+}
+
+.info-text{
+    margin-bottom: 30px;
+    text-align: left;
+    position: relative;
+    top: -20px;
+    color: antiquewhite;
+}
+
+/* ===== FOOTER (UPGRADED) ===== */
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 50px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+/* subtle top border effect */
+footer::before {
+  content: "";
+  display: block;
+  height: 2px;
+  background: linear-gradient(to right, transparent, white, transparent);
+  margin-bottom: 15px;
+}
+
+
+/* container nasa baba */
+.footer-click {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+/* button style */
+.footer-click .btn {
+  text-decoration: none;
+  background: gold;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+  border: 2px solid gold;
+}
+
+/* hover effect */
+.footer-click .btn:hover {
+  background: white;
+  color: gold;
+}
+
+/* ===== MOBILE RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
+  }
+}
